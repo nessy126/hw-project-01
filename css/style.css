@@ -31,20 +31,9 @@ body {
   background-color: var(--bgc);
   outline: 1px solid green;
   margin: 0;
-
 }
-
-h1 {
-font-family: DM Serif Display;
-font-weight: normal;
-font-size: 100px;
-line-height: 100%;
-color: var(--footer-header-text-color);
-}
-
-.title-reset {
-  margin-top: 0;
-  margin-bottom: 0;
+.conteiner {
+  margin-left: 240px;
 }
 
 /* Button */
@@ -65,6 +54,21 @@ color: var(--footer-header-text-color);
   min-width: 158px;
 }
 
+.button.get-started {
+  padding: 25px;
+  min-width: 220px;
+}
+
+.button.get-started::after {
+  margin-left: 24px;
+  width: 29.5px;
+  height: 12.5px;
+  outline: 1px solid #fff;
+  background-image: url('../images/social-icon/arrow-right.svg');
+  fill: var(--footer-header-text-color);
+  background-repeat: no-repeat;
+  content: '';
+}
 /* Header */
 .header {
   display: flex;
@@ -72,7 +76,6 @@ color: var(--footer-header-text-color);
   justify-content: stretch;
   height: 140px;
   width: 1108px;
-  margin-left: 240px;
   margin-right: 0;
 }
 
@@ -89,9 +92,8 @@ color: var(--footer-header-text-color);
   background-image: 
   /* url(../images/hero-car.jpg), */
   url(../images/hero-bg.png);
+  z-index: -2;
 }
-
-
 
 .header-logo-link {
 
@@ -124,6 +126,17 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 }
 /* Hero */
+
+.hero-title {
+  display: inline-block;
+  font-family: 'DM Serif Display', serif
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 100%;
+  color: var(--footer-header-text-color);
+  margin-top: 210px;
+  margin-bottom: 60px;
+}
 
 /* About */
 /* Apply */
