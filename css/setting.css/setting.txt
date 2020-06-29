@@ -1,0 +1,144 @@
+h1:
+font-family: DM Serif Display;
+font-weight: normal;
+font-size: 100px;
+line-height: 100%;
+/* or 100px */
+color: #FFFFFF;
+
+h2:
+font-family: Rubik;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+letter-spacing: 0.1em;
+color: #EE4D47;
+
+h3 
+font-family: DM Serif Display;
+font-weight: normal;
+font-size: 48px;
+line-height: 140%;
+/* or 67px */
+color: #402B2B;
+
+text:
+font-family: Rubik;
+font-weight: 300;
+font-size: 18px;
+line-height: 40px;
+/* or 222% */
+color: #402B2B;
+
+LOGO 
+font-family: DM Serif Display;
+font-weight: normal;
+font-size: 32px;
+line-height: 100%;
+/* identical to box height, or 32px */
+color: #FFFFFF;
+
+/* header-menu:
+font-family: Rubik;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px; */
+/* identical to box height
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+menu-footer:
+font-weight: normal;
+
+TIP:
+font-family: Rubik;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+color: #402B2B;
+
+FAQ - название вопросов:
+font-family: Rubik;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+
+FAQ - ответы
+font-family: Rubik;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+button CONTACT US, GET STARTED STARTED
+font-family: Rubik;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #EE4D47;
+border-radius: 5px;
+
+button "LOAD MORE"
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+color: #ED4D47;
+background: #ED4D47;
+opacity: 0.2;
+border-radius: 10px;
+
+Feedbacks:
+font-family: Rubik;
+font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+color: #402B2B;
+
+name-of-clinets:
+font-family: Roboto;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+color: #402B2B;
+
+TIP-near-form:
+font-family: Rubik;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+color: #FFFFFF;
+
+input-name:
+font-family: Rubik;
+font-weight: 300;
+font-size: 16px;
+line-height: 40px;
+/* or 250% */
+color: #402B2B;
+
+input-text:
+font-family: Rubik;
+font-weight: bold;
+font-size: 18px;
+line-height: 40px;
+/* or 222% */
+color: #402B2B;
+
+copyright:
+font-family: Rubik;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+color: #402B2B;
