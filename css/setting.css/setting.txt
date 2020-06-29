@@ -27,17 +27,9 @@ text:
 font-family: Rubik;
 font-weight: 300;
 font-size: 18px;
-line-height: 40px;
-/* or 222% */
+line-height: 2.22;
 color: #402B2B;
 
-LOGO 
-font-family: DM Serif Display;
-font-weight: normal;
-font-size: 32px;
-line-height: 100%;
-/* identical to box height, or 32px */
-color: #FFFFFF;
 
 /* header-menu:
 font-family: Rubik;

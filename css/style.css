@@ -23,59 +23,105 @@ font-family: 'Rubik', sans-serif; */
 }
 
 body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 2.22;
+  color: #402B2B;
   background-color: var(--bgc);
   outline: 1px solid green;
   margin: 0;
-  padding-top: 80px;
+
 }
 
 h1 {
-  font-family: DM Serif Display;
+font-family: DM Serif Display;
 font-weight: normal;
 font-size: 100px;
 line-height: 100%;
 color: var(--footer-header-text-color);
 }
 
+.title-reset {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /* Button */
+.button {
+  display: block;
+  background-color: var(--secondary-text-color);
+  color: var(--footer-header-text-color);
+  border: 1px var(--secondary-text-color);
+  border-radius: 5px;
+  padding: 20px 24px;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.button.contact-us {
+  min-width: 158px;
+}
 
 /* Header */
 .header {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: stretch;
+  height: 140px;
+  width: 1108px;
+  margin-left: 240px;
+  margin-right: 0;
 }
 
-.header.overlay {
-  display: flex;
-  background-position: top left;
+.overlay {
+  position: absolute;
+  width: 1734px;
+  height: 1005px;
+  left: -49px;
+  top: -54px;
   background-repeat: no-repeat;
-  background-size: ;
   width: 1285px;
   height: 800px;
   margin-right: auto;
   background-image: 
-  url(../images/hero-car.jpg),
-  url(../images/hero-bg.jpg);
+  /* url(../images/hero-car.jpg), */
+  url(../images/hero-bg.png);
 }
 
+
+
 .header-logo-link {
-margin-left: 289px;
+
 }
 
 .header-menu {
   display: flex;
+  margin-left: 292px;
+  width: 370px;
 
 }
 
-.header-item:not(:last-child) {
-  margin-right: 100px;
-
+.header-item:nth-child(1) {
+  margin-right: 97px;
+}
+.header-item:nth-child(2) {
+  margin-right: 104px;
+}
+.header-item:nth-child(3) {
+  margin-right: 76px;
 }
 
 .header-link {
+  display: inline-block;
     color: var(--footer-header-text-color);
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.1875;
+letter-spacing: 0.05em;
+text-transform: uppercase;
 }
 /* Hero */
 
