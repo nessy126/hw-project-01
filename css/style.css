@@ -32,6 +32,15 @@ body {
   outline: 1px solid green;
   margin: 0;
 }
+
+h2 {
+  font-family: Rubik, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1,67;
+  letter-spacing: 0.1em;
+  color: #EE4D47;
+}
 .conteiner {
   margin-left: 240px;
 }
@@ -55,36 +64,34 @@ body {
 }
 
 .button.get-started {
-  padding: 25px;
-  min-width: 220px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding-left: 25px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  width: 220px;
 }
 
 .button.get-started::after {
-  margin-left: 24px;
   width: 29.5px;
   height: 12.5px;
-  outline: 1px solid #fff;
+  /* outline: 1px solid #fff; */
   background-image: url('../images/social-icon/arrow-right.svg');
   fill: var(--footer-header-text-color);
   background-repeat: no-repeat;
   content: '';
+  margin-left: 20px;
 }
 /* Header */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: stretch;
-  height: 140px;
-  width: 1108px;
-  margin-right: 0;
-}
 
 .overlay {
   position: absolute;
   width: 1734px;
   height: 1005px;
-  left: -49px;
-  top: -54px;
+  left: 0;
+  top: 0;
   background-repeat: no-repeat;
   width: 1285px;
   height: 800px;
@@ -95,15 +102,19 @@ body {
   z-index: -2;
 }
 
-.header-logo-link {
-
+.header {
+  display: flex;
+  align-items: center;
+  height: 140px;
 }
 
 .header-menu {
   display: flex;
-  margin-left: 292px;
-  width: 370px;
+  margin-left: 292px
+}
 
+.header-item {
+  display: flex
 }
 
 .header-item:nth-child(1) {
@@ -111,30 +122,38 @@ body {
 }
 .header-item:nth-child(2) {
   margin-right: 104px;
+    width: 66px;
 }
 .header-item:nth-child(3) {
   margin-right: 76px;
 }
 
 .header-link {
-  display: inline-block;
-    color: var(--footer-header-text-color);
-    font-weight: 700;
-font-size: 16px;
-line-height: 1.1875;
-letter-spacing: 0.05em;
-text-transform: uppercase;
+  display: inline-flex;
+  color: var(--footer-header-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-/* Hero */
 
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 47px;
+}
 .hero-title {
-  display: inline-block;
-  font-family: 'DM Serif Display', serif
+  display: flex;
+  font-family: 'DM Serif Display', serif;
   font-weight: normal;
   font-size: 100px;
-  line-height: 100%;
+  line-height: 1;
   color: var(--footer-header-text-color);
-  margin-top: 210px;
+  margin-top: 47px;
   margin-bottom: 60px;
 }
 
